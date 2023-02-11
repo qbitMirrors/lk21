@@ -18,11 +18,12 @@
 #
 # (C) 2012- by Adam Tauber, <asciimoo@gmail.com>
 
+from sre_parse36 import sre_parse
 try:
     from future_builtins import map, range
 except:
     pass
-from re import sre_parse, U
+from re import U
 from itertools import tee
 from random import choice, randint
 from types import GeneratorType
