@@ -22,7 +22,8 @@ try:
     from future_builtins import map, range
 except:
     pass
-from re import sre_parse, U
+from sre_parse36 import sre_parse36 as sre_parse
+from re import U
 from itertools import tee
 from random import choice, randint
 from types import GeneratorType
