@@ -18,7 +18,7 @@
 #
 # (C) 2012- by Adam Tauber, <asciimoo@gmail.com>
 
-from sre_parse36 import sre_parse
+import sre_parse
 try:
     from future_builtins import map, range
 except:
